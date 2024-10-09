@@ -82,17 +82,21 @@ g
   document.getElementById("date&time").innerHTML=d;
 
 </script>
-        <!DOCTYPE html>
+        
+      |
+      </html>
+        
+<!DOCTYPE html>
         <html>
           <head>
-            <title>CHnage Button COlour</title>
+            <title>Change Button Colour</title>
           </head>
           <body>
             <button id="color Button">Click me to change colour</button>
             <script>
               //Get a reference to the button element
-              var button =document.getElementBuId("colorButton");
-              //Function to chane the button color
+              var button =document.getElementById("colorButton");
+              //Function to change the button color
               function changeColor(){
                 //Generate a random color (hexadercimal)
                 var randomColor = "#" + Math.floor(Math.random()*16777215).toString(16);
@@ -104,6 +108,3 @@ g
             </script>
           </body>
         </html>
-      |
-      </html>
-
