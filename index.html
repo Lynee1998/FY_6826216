@@ -248,6 +248,8 @@ chart.draw(data, options);
   </script>
 </body>
 </html>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -286,7 +288,7 @@ chart.draw(data, options);
         // Set chart options
         var options = {
           title: 'City Population Trends (2013-2023)',
-          hAxis: { title: 'Year' },
+          hAxis: { title: 'Year', format: '####' }, // Make sure the year is properly formatted
           vAxis: { title: 'Population' },
           colors: ['#3366cc', '#dc3912', '#ff9900'], // Line colors for each city
           curveType: 'function', // Display lines smoothly
@@ -300,6 +302,8 @@ chart.draw(data, options);
     </script>
   </body>
 </html>
+
+
 <!DOCTYPE html>
 <html>
 <head>
